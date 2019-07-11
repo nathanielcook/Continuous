@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Addin>
+    <Url>Continuous.Client.MonoDevelop.Continuous.Client.MonoDevelop_2.0.6.mpack</Url>
+    <Addin>
+      <Id>Continuous.Client.MonoDevelop</Id>
+      <Namespace>Continuous.Client.MonoDevelop</Namespace>
+      <Name>Continuous Coding</Name>
+      <Version>2.0.6</Version>
+      <BaseVersion />
+      <Author>Frank A. Krueger</Author>
+      <Copyright />
+      <Url />
+      <Description>Continuous coding environment visualizes objects as you type them.</Description>
+      <Category>IDE extensions</Category>
+      <Dependencies />
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">28329</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>Continuous.Client.MonoDevelop.mpack</Url>
     <Addin>
       <Id>Continuous.Client.MonoDevelop</Id>
