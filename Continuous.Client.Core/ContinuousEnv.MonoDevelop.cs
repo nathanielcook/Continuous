@@ -218,7 +218,7 @@ namespace Continuous.Client
 		}
         
 		MonoDevelop.Ide.Gui.Document boundDoc = null;
-        ITextBuffer2 buffer = null;
+        ITextBuffer buffer = null;
 
 		void BindActiveDoc (object sender, EventArgs e)
 		{
@@ -233,7 +233,7 @@ namespace Continuous.Client
             }
 
 			boundDoc = doc;
-            buffer = doc.GetContent<ITextBuffer2>();
+            buffer = doc.GetContent<ITextBuffer>();
 
             if (buffer != null) {
                 buffer.Changed += ScheduleUpdate;
